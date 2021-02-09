@@ -27,6 +27,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  text-align: center;
+  position: relative;
+  display: flex;
 }
 
 li {
@@ -35,15 +38,17 @@ li {
 
 li a {
   display: block;
+  width: 100%;
   color: #DCDCDC;
   text-align: center;
-  padding: 12px 70px;
+  padding: 12px 12px 12px 45px;
   text-decoration: none;
+  margin-left: 30px;
+  margin-right: 10px;
 }
 
-
-ul li:hover a{ 
-     color:white;
+ul li:hover a {
+  color: white;
 }
 
 .logo-image{
