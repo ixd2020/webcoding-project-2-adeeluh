@@ -8,8 +8,17 @@ content {
 }
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
 }
+p {
+  font-style: normal;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px
+}
+p span {
+  color: #0070C9;
+}
+
 h1 {
   font-style: bold;
   color: black;
@@ -176,5 +185,19 @@ ul li:hover a {
 
 .imagefive {
   padding: 40px 0px 20px 0x;
+}
+
+.textfive {
+  padding: 30px 300px 30px 300px;
+}
+
+.imagesix {
+  float: left;
+  padding-left: 200px;
+}
+
+.textsix {
+  float: auto;
+  padding-bottom: 250px;
 }
 

@@ -21,6 +21,9 @@ h3 {
 }
 
 /* nav bar */
+
+  
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -51,13 +54,7 @@ ul li:hover a {
   color: white;
 }
 
-.logo-image{
-    width: 36px;
-    height: 44px;
-    border-radius: 10%;
-    overflow: hidden;
-    margin-top: -6px;
-}
+
 /* search  */
 .search {
   width: 100%;
@@ -92,23 +89,24 @@ ul li:hover a {
   transform: translate(-50%, -50%);
 }
 
-/*footer*/
-
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #F5F5F7;
-   color: #515154;
-   text-align: center;
+  width:100%;
+  background-color: #f5f5f7;
+  height: 33.33%;
 }
 
-.container1 {
-  position: left;
-  width: 25%;
-  text-align: left;
-  height: 392px;
-  padding: 40px 60px 10px 40px;
-  
+.ftcolumn {
+  float: left;
+}
+.ftcolumn2 {
+  float: left;
+}
+.ftcolumn3 {
+  float: left;
+}
+.ftcolumn4 {
+  float: left;
+}
+.ftcolumn5 {
+  float: left;
 }

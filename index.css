@@ -15,8 +15,9 @@ h1 {
   font-size: 45px;
 }
 h1 span {
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
+  padding: 40px 40px 10px 230px;
 }
 h2 {
   font-style: normal;
@@ -48,6 +49,7 @@ h5 {
   top: 1270px; /* The exact location of the text from the top of the image*/
   left:  610px; /* Other beautification stuff */
   width: 100%;
+  padding-top: 20px;
 }
 h5 span {
   font-size: 23px;
@@ -62,8 +64,19 @@ h6 {
   font-size: 20px;
   position: absolute;
   top: 1440px; /* The exact location of the text from the top of the image*/
-  left:  667px; /* Other beautification stuff */
+  padding-left: 668px;/* Other beautification stuff */
   width: 100%;
+  padding-bottom: 0px;
+}
+p {
+  position: absolute;
+  padding: 170px 0px 0px 360px;
+  color: #0070C9;
+}
+p span {
+  color: white;
+  padding: 0px 0px 0px 700px;
+  
 }
 
 ul {
@@ -96,24 +109,13 @@ ul li:hover a {
   color: white;
 }
 .help {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20px 20px 20px 20px;
   overflow: hidden;
   background-color: #F5F5F7;
 }
 
-.list {
-  float: left;
-}
 
-.lista {
-  display: block;
-  color: #DCDCDC;
-  text-align: center;
-  padding: 12px 70px;
-  text-decoration: none;
-}
 
 ul li:hover a {
   color: white;
@@ -135,7 +137,7 @@ ul li:hover a {
   display: table;
   clear: both;
 }
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 600px) {
   .img-container-a {
     width: 100%;
   }
@@ -145,22 +147,25 @@ ul li:hover a {
   position: relative;
   width: 100%;
 }
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 600px) {
   .img-container-b {
     width: 100%;
   }
 
-  
-.flex-container {
-    display: flex;
+.margin {
+  margin: 10px 20px 10px 250px;
 }
+  
+.imageleft {
+    float: left;
+    padding: 10px -20px 20px 0px;
+    display: inline-block;
+    width: 50%;
+  }
 
-.flex-child {
-    flex: 1;
-    border: 2px;
-}  
-
-.flex-child:first-child {
-    margin-right: 20px;
-} 
-
+  .imagebox {
+    display: inline-block;
+    position: relative;
+    float: left;
+    max-width: 1599px;
+  }
